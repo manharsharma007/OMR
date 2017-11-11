@@ -1,0 +1,81 @@
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\bin\Debug\database\database.mdf
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\bin\Debug\database\database_log.ldf
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\bin\Debug\careeracademyapp.exe.config
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\bin\Debug\careeracademyapp.exe.manifest
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\bin\Debug\careeracademyapp.application
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\bin\Debug\careeracademyapp.exe
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\bin\Debug\careeracademyapp.pdb
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.csprojResolveAssemblyReference.cache
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.Add_Subject.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.Add_Subtopic.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.Add_Topic.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.AnswerSheet.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.Delete_Batch.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.delete_template.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.delete_test.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.Form1.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.Properties.Resources.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.reports_form.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.sheet_designer.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.Update_Batch.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.csproj.GenerateResource.Cache
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.exe.manifest
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.application
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.exe
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy\careeracademyapp\obj\Debug\careeracademyapp.pdb
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\bin\Debug\careeracademyapp.exe.config
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.exe
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.pdb
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\bin\Debug\database\database.mdf
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\bin\Debug\database\database_log.ldf
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\bin\Debug\careeracademyapp.exe.manifest
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\bin\Debug\careeracademyapp.application
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\bin\Debug\careeracademyapp.exe
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\bin\Debug\careeracademyapp.pdb
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.csprojResolveAssemblyReference.cache
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.Add_Subject.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.Add_Subtopic.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.Add_Topic.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.AnswerSheet.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.Delete_Batch.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.delete_template.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.delete_test.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.Form1.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.Properties.Resources.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.reports_form.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.sheet_designer.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.Update_Batch.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.csproj.GenerateResource.Cache
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.exe.manifest
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\careeracademyapp - Copy - Copy (3)\careeracademyapp\obj\Debug\careeracademyapp.application
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\bin\Debug\careeracademyapp.exe.config
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.exe
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.pdb
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\bin\Debug\database\database.mdf
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\bin\Debug\database\database_log.ldf
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\bin\Debug\careeracademyapp.exe.manifest
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\bin\Debug\careeracademyapp.application
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\bin\Debug\careeracademyapp.exe
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\bin\Debug\careeracademyapp.pdb
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Add_Subject.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Add_Subtopic.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Add_Topic.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.AnswerSheet.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Delete_Batch.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.delete_template.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.delete_test.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Form1.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Properties.Resources.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.reports_form.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.sheet_designer.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Update_Batch.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.csproj.GenerateResource.Cache
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.exe.manifest
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.application
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.StartScreen.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Subjective.SubAnswerSheet.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Subjective.SubUpdateBatch.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Subjective.SubReports.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Subjective.SubSheetProcessor.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Subjective.SubSheetDesigner.resources
+C:\Users\Operce\Documents\Visual Studio 2013\Projects\working OMR\careeracademyapp\obj\Debug\careeracademyapp.Main.help.resources

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="careeracademyapp.exe" version="1.0.0.0" publicKeyToken="39615c7fcdeed05b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="careeracademyapp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="careeracademyapp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="careeracademyapp.exe" size="791040">
+      <assemblyIdentity name="careeracademyapp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LuEILZxt4tXnMLG4Dp5joM3MuEHBoHArn5bYdmkHGsY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="careeracademyapp.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="database\database.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m/QekV5ObAc1Y7PAG4/mV98u7Iu88bofi4I+QOFomhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="database\database_log.ldf" size="802816" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vaEkVlrko+eqySHcFZR7UNyMbyJVE3r4TIuurbdH0P0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OPERCE-PC\Operce" issuerKeyHash="7b7ccb83d51ff56007c8c80c8719d353e4602b40" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TSLqJFUxS2mpNcdDMa99OH0rP35ThJHF/ltkHOJahNw=</DigestValue></Reference></SignedInfo><SignatureValue>AfceiHjwcXWq6pyJLvXG9Crz6B5cL4oO4HXaMBzRJDWeOuJOXv8h8ORRiNr4LVStrIiJzG2M5CmHCbNwV1OBUaePikwZI1YRK3v2Z7q3VtVLZwJ7A+3EoQtS21kxJEfxKY5Rhr+ply0u3ZDd1wvs4q+PCS6CowDh4lIqHc3EPJc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1omdpKCuuSD2LRMIf+Etf6WrM1U9YPqkRE/SDk3/LLOd/AkRhSdTdPpU2CX0jBHw+aSCYGvb9BB+G5at6VOUMY23f3zoRk4l0LhV4s0SBGDeeS+5OFdcx3NXGyi2N1vzGLUlV5kYf+vdaKUXdvyTycBg9SDGlxj2dTBEduJScVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dc845ae21c645bfec59184537e3f2b7d387daf3143c735a9694b315524ea224d" Description="" Url=""><as:assemblyIdentity name="careeracademyapp.exe" version="1.0.0.0" publicKeyToken="39615c7fcdeed05b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OPERCE-PC\Operce</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pLtnxpbv2VcsTp54nkgGoH9+ZeO1pmXLI0LY8mp8GwY=</DigestValue></Reference></SignedInfo><SignatureValue>d4W7gdHpfjsfUsevAQi46kdulCebQ7B6nDPJQI7lv0erZ5lgIZ1zGU0dIgOANjvydprj5BL9wLyDoG0OzQV5OfNOzE6U/W0uhr9m0j1A0vN56R8Unuqr/FZd0GCoYYE8gVGb41IpcM6POWUVowBMtC2mKY062aonmuOctlDa6AY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1omdpKCuuSD2LRMIf+Etf6WrM1U9YPqkRE/SDk3/LLOd/AkRhSdTdPpU2CX0jBHw+aSCYGvb9BB+G5at6VOUMY23f3zoRk4l0LhV4s0SBGDeeS+5OFdcx3NXGyi2N1vzGLUlV5kYf+vdaKUXdvyTycBg9SDGlxj2dTBEduJScVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQfVMiv0ubTqNBRy2h1+g3xDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATwBQAEUAUgBDAEUALQBQAEMAXABPAHAAZQByAGMAZTAeFw0xNjA5MDgxMDMyMTdaFw0xNzA5MDgxNjMyMTdaMCsxKTAnBgNVBAMeIABPAFAARQBSAEMARQAtAFAAQwBcAE8AcABlAHIAYwBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWiZ2koK65IPYtEwh/4S1/paszVT1g+qRET9IOTf8ss538CRGFJ1N0+lTYJfSMEfD5pIJga9v0EH4blq3pU5Qxjbd/fOhGTiXQuFXizRIEYN55L7k4V1zHc1cbKLY3W/MYtSVXmRh/691opRd2/JPJwGD1IMaXGPZ1MER24lJxVwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACBYp2Yd6ioo6S3epLAsh2lVkTb2ZuyPDDMGVGAx+sBnAHzaq4BUN5e+fFGUAFyveKGh+xknmSfSRo5NKcDQhAP5xoCmp+u3D8uj9T7qSfK+mVOirZmDPnZLoSgP8tC+PUAQku+fH+xcAqbuIfQoZH/OezMNVQ9NKjIgtmsEmDR7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1112890A-99AF-4099-AF4F-CC2050063ABC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>omrapplication</RootNamespace>
+    <AssemblyName>omrapplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Operce\Desktop\final build\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.operce.com/contact/</SupportUrl>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>OMR Software</ProductName>
+    <PublisherName>Operce Technologies</PublisherName>
+    <SuiteName>OMR Reader V1.0.0</SuiteName>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CA1A3CC8B498F13DE68B5B0273873824376838F9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>careeracademyapp_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\answer_5IX_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main\Add Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Add Subject.Designer.cs">
+      <DependentUpon>Add Subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Add Subtopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Add Subtopic.Designer.cs">
+      <DependentUpon>Add Subtopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Add Topic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Add Topic.Designer.cs">
+      <DependentUpon>Add Topic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\help.Designer.cs">
+      <DependentUpon>help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objective\AnswerSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Objective\AnswerSheet.Designer.cs">
+      <DependentUpon>AnswerSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classes\calculation_class.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\data_class.cs" />
+    <Compile Include="Main\Delete Batch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Delete Batch.Designer.cs">
+      <DependentUpon>Delete Batch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\delete_template.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\delete_template.Designer.cs">
+      <DependentUpon>delete_template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\delete_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\delete_test.Designer.cs">
+      <DependentUpon>delete_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objective\objSheetProcessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Objective\objSheetProcessor.Designer.cs">
+      <DependentUpon>objSheetProcessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Objective\reports_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Objective\reports_form.Designer.cs">
+      <DependentUpon>reports_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objective\sheet_designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Objective\sheet_designer.Designer.cs">
+      <DependentUpon>sheet_designer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objective\Update Batch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Objective\Update Batch.Designer.cs">
+      <DependentUpon>Update Batch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\StartScreen.Designer.cs">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subjective\SubAnswerSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subjective\SubAnswerSheet.Designer.cs">
+      <DependentUpon>SubAnswerSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subjective\SubReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subjective\SubReports.Designer.cs">
+      <DependentUpon>SubReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subjective\SubSheetProcessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subjective\SubSheetProcessor.Designer.cs">
+      <DependentUpon>SubSheetProcessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subjective\SubUpdateBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subjective\SubUpdateBatch.Designer.cs">
+      <DependentUpon>SubUpdateBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subjective\SubSheetDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subjective\SubSheetDesigner.Designer.cs">
+      <DependentUpon>SubSheetDesigner.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main\Add Subject.resx">
+      <DependentUpon>Add Subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Add Subtopic.resx">
+      <DependentUpon>Add Subtopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Add Topic.resx">
+      <DependentUpon>Add Topic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\help.resx">
+      <DependentUpon>help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Objective\AnswerSheet.resx">
+      <DependentUpon>AnswerSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Delete Batch.resx">
+      <DependentUpon>Delete Batch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\delete_template.resx">
+      <DependentUpon>delete_template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\delete_test.resx">
+      <DependentUpon>delete_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Objective\objSheetProcessor.resx">
+      <DependentUpon>objSheetProcessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Objective\reports_form.resx">
+      <DependentUpon>reports_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Objective\sheet_designer.resx">
+      <DependentUpon>sheet_designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Objective\Update Batch.resx">
+      <DependentUpon>Update Batch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StartScreen.resx">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subjective\SubAnswerSheet.resx">
+      <DependentUpon>SubAnswerSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subjective\SubReports.resx">
+      <DependentUpon>SubReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subjective\SubSheetProcessor.resx">
+      <DependentUpon>SubSheetProcessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subjective\SubUpdateBatch.resx">
+      <DependentUpon>SubUpdateBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subjective\SubSheetDesigner.resx">
+      <DependentUpon>SubSheetDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\markers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse_files.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_operce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse_single.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numeric.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\answer_5IX_icon.ico" />
+    <Content Include="Resources\answer_Axa_icon.ico" />
+    <Content Include="database\database.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="database\database_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>database.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\notepad-icon.png" />
+    <None Include="Resources\Add11.png" />
+    <None Include="Resources\help-icon.png" />
+    <None Include="Resources\help-icon-29.png" />
+    <None Include="Resources\Add1.png" />
+    <None Include="Resources\delete1.png" />
+    <None Include="Resources\opentest1.png" />
+    <None Include="Resources\opentest.png" />
+    <None Include="Resources\generate_repor1t.png" />
+    <None Include="Resources\generate_report1.png" />
+    <None Include="Resources\generate_report.png" />
+    <None Include="Resources\generate_reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.11.1">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
